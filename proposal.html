@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <title>STEM Proposal</title>
+    <link href ="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width", inital-scale = 1>
+</head>
+<body>
+    <div class=topnav id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="proposal.html" class="active">Capstone Proposal</a>
+        <a href="project.html">Current Project</a>
+        <a href="coursework.html">Coursework</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a> 
+    </div>
+    <script>
+        function myFunction(){
+            var x = document.getElementById("myTopnav");
+            if(x.className === "topnav") {
+                x.className += "responsive";
+            } else {
+                x.className = "topnav"
+            }
+        }
+    </script>
+<div class = "proposal">
+    <h3>STEM Capstone Project Proposal</h3> 
+    <p>
+        This proposal was the proposal that I wrote in the STEM seminar class,
+        which was the pre-requisite for the capstone project. This is also the
+        project that I am working/worked on for the capstone class.
+    </p>
+    <iframe src="https://docs.google.com/document/d/e/2PACX-1vS-iC_ZnzjD1_ZcWmUGmQdFnRKx2scs3XcF4wNTHVHtLvNCRcjUlyvrTp73t88UqrCIQof_3XDDSDcf/pub?embedded=true" class = "gdocs"></iframe>
+</div>
+</body>
+</html>
